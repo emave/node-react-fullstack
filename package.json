@@ -8,7 +8,7 @@
     "npm": "6.5.0"
   },
   "scripts": {
-    "start": "node idnex.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
