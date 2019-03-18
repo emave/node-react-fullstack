@@ -1,0 +1,18 @@
+$colors: (
+        brand: #ea638c,
+        black: #1b2021,
+        white: #ffd9da
+);
+
+$r: 'Roboto';
+
+:root {
+  // each item in color map
+  @each $name, $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+}
+
+@function color($color-name) {
+  @return var(--color-#{$color-name});
+}
