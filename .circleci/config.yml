@@ -6,8 +6,6 @@ jobs:
       - image: circleci/node:10.14.2
       - image: buildpack-deps:trusty
 
-    working_directory: ~/
-
     steps:
       - checkout
 
