@@ -46,7 +46,7 @@ jobs:
             - client/node_modules
           key: v2-dependencies-{{ checksum "client/package.json" }}
 
-      - run: npm run build --path client
+      - run: cd client && npm run build && cd ../
 
       - run:
           name: Deploy Master to Heroku
