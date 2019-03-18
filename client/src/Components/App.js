@@ -1,10 +1,12 @@
-import React, {Suspense, lazy, useEffect} from "react";
+import React, {Suspense, lazy, useEffect, useState} from "react";
 import {Route, BrowserRouter} from 'react-router-dom';
 import {MuiThemeProvider} from '@material-ui/core/styles';
 import {customTheme} from "../Config/Theme";
 import {connect} from "react-redux";
 import {authActions} from "../Actions";
 import '../Styles/App.sass';
+import {Elements, StripeProvider} from "react-stripe-elements";
+import {billingDialog} from "./Dialogs/bilingDialog";
 
 const Header = lazy(() => import('./Header'));
 const Dashboard = () => <h2>Dashboard</h2>;
@@ -19,6 +21,18 @@ const App = (props) => {
     fetchUser();
   }, [auth ? auth._id : auth]);
 
+  const [stripe, setStripe] = useState(null);
+
+  useEffect(() => {
+    if (window.Stripe) {
+      setStripe(window.Stripe(process.env.REACT_APP_STRIPE_KEY));
+    } else {
+      document.querySelector('#stripe-js').addEventListener('load', () => {
+        setStripe(window.Stripe(process.env.REACT_APP_STRIPE_KEY));
+      });
+    }
+  }, []);
+
   return (
     <MuiThemeProvider theme={customTheme}>
       <Suspense fallback={
@@ -32,6 +46,12 @@ const App = (props) => {
           <Route path={'/surveys'} component={Dashboard} exact/>
           <Route path={'/'} component={Landing} exact/>
         </BrowserRouter>
+
+        <StripeProvider stripe={stripe}>
+        <Elements>
+          <billingDialog/>
+        </Elements>
+      </StripeProvider>
       </Suspense>
     </MuiThemeProvider>
   )

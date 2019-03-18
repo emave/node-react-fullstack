@@ -8,7 +8,7 @@ import {
   Divider
 } from "@material-ui/core";
 import {connect} from "react-redux";
-import {authActions} from '../Actions/authActions';
+import {authActions} from '../../Actions/authActions';
 
 const Payments = (props) => {
 
@@ -42,4 +42,6 @@ const mapDispatchToProps = (dispatch) => ({
   handleToken: (token) => dispatch(authActions.handleToken(token))
 });
 
-export default connect(null, mapDispatchToProps)(injectStripe(Payments));
+const connectedComponent = connect(null, mapDispatchToProps)(injectStripe(Payments));
+
+export { connectedComponent as billingDialog };
