@@ -7,14 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:7.10
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
-
-    working_directory: ~/repo
+      - image: circleci/node:10.14.2
 
     steps:
       - checkout
@@ -39,14 +32,14 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v2-dependencies-
 
-      - run: cd client && npm install && cd ../
+      - run: cd client && npm install
 
       - save_cache:
           paths:
             - client/node_modules
           key: v2-dependencies-{{ checksum "client/package.json" }}
 
-      - run: cd client && npm run build && cd ../
+      - run: cd client && npm run build
 
       - run:
           name: Deploy Master to Heroku
