@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7af1358-5719-4d82-884b-6b5dbef48c67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/Actions/modalActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Constants/modalConstants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Reducers/modalReducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Actions/authActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Actions/authActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Dialogs/bilingDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Dialogs/billingDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Dialogs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Dialogs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Payments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Constants/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Reducers/authReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Reducers/authReducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Reducers/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+                <state relative-caret-position="345">
+                  <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -50,8 +38,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="439">
-                  <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+                <state relative-caret-position="406">
+                  <caret line="43" column="118" selection-start-line="43" selection-start-column="118" selection-end-line="43" selection-end-column="118" />
                 </state>
               </provider>
             </entry>
@@ -129,8 +117,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/src/Components/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="199">
-                  <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+                <state relative-caret-position="567">
+                  <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
                   <folding>
                     <element signature="e#0#55#0" expanded="true" />
                   </folding>
@@ -139,10 +127,21 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2277">
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/client/src/Components/Dialogs/billingDialog.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+                <state relative-caret-position="107">
+                  <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -185,15 +184,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="46">
                   <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/Constants/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -282,8 +272,6 @@
         <option value="$PROJECT_DIR$/client/src/Components/Dialogs/index.js" />
         <option value="$PROJECT_DIR$/client/src/Components/Payments.js" />
         <option value="$PROJECT_DIR$/client/src/Components/Landing.js" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
-        <option value="$PROJECT_DIR$/client/.gitignore" />
         <option value="$PROJECT_DIR$/client/src/Constants/modalConstants.js" />
         <option value="$PROJECT_DIR$/client/src/Constants/index.js" />
         <option value="$PROJECT_DIR$/client/src/Reducers/index.js" />
@@ -295,6 +283,8 @@
         <option value="$PROJECT_DIR$/client/src/Components/App.js" />
         <option value="$PROJECT_DIR$/client/src/Actions/authActions.js" />
         <option value="$PROJECT_DIR$/client/src/Components/Dialogs/billingDialog.js" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/client/.gitignore" />
       </list>
     </option>
   </component>
@@ -475,7 +465,7 @@
       <workItem from="1552411324247" duration="32516000" />
       <workItem from="1552901778147" duration="10565000" />
       <workItem from="1552916747553" duration="14613000" />
-      <workItem from="1552983979858" duration="5474000" />
+      <workItem from="1552983979858" duration="6513000" />
     </task>
     <task id="LOCAL-00001" summary="adding prod">
       <created>1552309393526</created>
@@ -659,17 +649,31 @@
       <option name="project" value="LOCAL" />
       <updated>1552984967190</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="modal for billing">
+      <created>1552989482140</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1552989482140</updated>
+    </task>
+    <task id="LOCAL-00028" summary="circleci config for deploying">
+      <created>1552990232108</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1552990232108</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114329000" />
+    <option name="totallyTimeSpent" value="115368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1965" y="27" width="2515" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62737125" visible="true" weight="0.11035313" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62737125" visible="true" weight="0.11035313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.37262872" side_tool="true" weight="0.28774616" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -683,7 +687,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289183" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1986755" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.392936" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -700,22 +704,15 @@
     <MESSAGE value="circleci settings" />
     <MESSAGE value="adding billing dialog" />
     <MESSAGE value="circleci client build config" />
-    <option name="LAST_COMMIT_MESSAGE" value="circleci client build config" />
+    <MESSAGE value="modal for billing" />
+    <MESSAGE value="circleci config for deploying" />
+    <option name="LAST_COMMIT_MESSAGE" value="circleci config for deploying" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm64.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,13 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Components/Landing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -910,13 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -999,23 +982,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="43" column="118" selection-start-line="43" selection-start-column="118" selection-end-line="43" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/Dialogs/billingDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        <state relative-caret-position="567">
+          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Components/Dialogs/billingDialog.js">
+    <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="-2277">
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
