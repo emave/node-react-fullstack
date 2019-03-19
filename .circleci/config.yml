@@ -43,10 +43,13 @@ jobs:
           command: |
             git config --global user.email "emavericke@yahoo.com" && git config --global user.name "emave"
 
+
       - run:
           name: Pull changes and adding a Build dist
           command: |
-            cd client && git add -f build && cd ../ && git add -f client/build && git commit -m "commit" && git pull https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master && git commit -m "commit"
+            cd client && git add -f build && cd ../ && git add -f client/build && git commit -m "commit"
+
+      - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
 
       - run:
           name: Deploy Master to Heroku
