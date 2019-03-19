@@ -41,7 +41,7 @@ jobs:
       - run:
           name: Create global user name
           command: |
-            git config --global user.email "emavericke@yahoo.com" && git config --global user.name "emave" && git add -f client/build && git commit -m "commit"
+            git config --global user.email "emavericke@yahoo.com" && git config --global user.name "emave" && git pull && git add -f client/build && git commit -m "commit"
 
       - run:
           name: Deploy Master to Heroku
