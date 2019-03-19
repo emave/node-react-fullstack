@@ -1,1 +1,1 @@
-export * from './bilingDialog';
+export * from './billingDialog';

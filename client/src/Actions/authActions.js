@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {authConstants} from "../Constants";
+import {authConstants, modalConstants} from "../Constants";
 
 const fetchUser = () => async dispatch => {
   const res = await axios.get('/api/current_user');
@@ -11,10 +11,11 @@ const logoutUser = () => async dispatch => {
   dispatch({type: authConstants.FETCH_USER, payload: false});
 };
 
-export const handleToken = (token) => async dispatch => {
+const handleToken = (token) => async dispatch => {
   console.log(token);
   const res = await axios.post('/api/stripe', token);
   dispatch({type: authConstants.FETCH_USER, payload: res.data});
+  dispatch({type: modalConstants.CLOSE_MODAL, payload: false});
 };
 
 export const authActions = {
