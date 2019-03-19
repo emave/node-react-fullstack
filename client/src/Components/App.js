@@ -17,7 +17,6 @@ const App = (props) => {
   const {fetchUser, auth} = props;
 
   useEffect(() => {
-    console.log(auth);
     fetchUser();
   }, [auth ? auth._id : auth]);
 
