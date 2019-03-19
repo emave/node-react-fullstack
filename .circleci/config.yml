@@ -49,7 +49,10 @@ jobs:
           command: |
             cd client && git add -f build && cd ../ && git add -f client/build && git commit -m "commit"
 
-      - "[[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow"
+      - run:
+          name: Unshallow Heroku
+          command: |
+            [[ ! -s \"$(git rev-parse --git-dir)/shallow\" ]] || git fetch --unshallow
 
       - run:
           name: Deploy Master to Heroku
