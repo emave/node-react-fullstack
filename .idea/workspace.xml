@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7af1358-5719-4d82-884b-6b5dbef48c67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Reducers/modalReducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Reducers/modalReducers.js" afterDir="false" />
-    </list>
+    <list default="true" id="e7af1358-5719-4d82-884b-6b5dbef48c67" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -163,8 +159,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/client/public/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+                <state relative-caret-position="460">
+                  <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -469,7 +465,7 @@
       <workItem from="1552411324247" duration="32516000" />
       <workItem from="1552901778147" duration="10565000" />
       <workItem from="1552916747553" duration="14613000" />
-      <workItem from="1552983979858" duration="8038000" />
+      <workItem from="1552983979858" duration="8667000" />
     </task>
     <task id="LOCAL-00001" summary="adding prod">
       <created>1552309393526</created>
@@ -674,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552990575640</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="delete all logs">
+      <created>1552992124759</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552992124759</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116893000" />
+    <option name="totallyTimeSpent" value="117522000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1965" y="27" width="2515" height="1053" extended-state="6" />
@@ -717,7 +720,8 @@
     <MESSAGE value="circleci client build config" />
     <MESSAGE value="modal for billing" />
     <MESSAGE value="circleci config for deploying" />
-    <option name="LAST_COMMIT_MESSAGE" value="circleci config for deploying" />
+    <MESSAGE value="delete all logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete all logs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm64.vmoptions">
@@ -1044,8 +1048,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="460">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
