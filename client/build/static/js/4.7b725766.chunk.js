@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{354:function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),c=t(23);n.default=function(){return r.a.createElement("div",{style:{textAlign:"center",padding:"50px 20px"}},r.a.createElement(c.j,{variant:"h1"},"Emaily!"),r.a.createElement("p",null,"Collect feedback from your users"))}}}]);
-//# sourceMappingURL=4.7b725766.chunk.js.map
