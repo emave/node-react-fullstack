@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7af1358-5719-4d82-884b-6b5dbef48c67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middlewares/requireCredits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Recipient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Survey.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/surveyRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +36,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/.gitignore">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="230">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="399">
+                  <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
                 </state>
               </provider>
             </entry>
@@ -59,7 +54,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/Users.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="184">
@@ -292,7 +287,6 @@
         <option value="$PROJECT_DIR$/client/src/Reducers/authReducers.js" />
         <option value="$PROJECT_DIR$/client/src/Actions/authActions.js" />
         <option value="$PROJECT_DIR$/client/src/Components/Dialogs/billingDialog.js" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/client/build/index.html" />
         <option value="$PROJECT_DIR$/client/src/Reducers/modalReducers.js" />
         <option value="$PROJECT_DIR$/client/src/Components/App.js" />
@@ -303,6 +297,7 @@
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/middlewares/requireCredits.js" />
         <option value="$PROJECT_DIR$/routes/surveyRoutes.js" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -324,6 +319,11 @@
             <path>
               <item name="mysterious-mountain-43373" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysterious-mountain-43373" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysterious-mountain-43373" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysterious-mountain-43373" type="462c0819:PsiDirectoryNode" />
+              <item name=".circleci" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mysterious-mountain-43373" type="b2602c69:ProjectViewProjectNode" />
@@ -447,7 +447,7 @@
       <workItem from="1552411324247" duration="32516000" />
       <workItem from="1552901778147" duration="10565000" />
       <workItem from="1552916747553" duration="14613000" />
-      <workItem from="1552983979858" duration="15905000" />
+      <workItem from="1552983979858" duration="16503000" />
     </task>
     <task id="LOCAL-00001" summary="adding prod">
       <created>1552309393526</created>
@@ -666,11 +666,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552992942468</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="survey routes setup">
+      <created>1553008334773</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1553008334773</updated>
+    </task>
+    <task id="LOCAL-00033" summary="circleci push fix">
+      <created>1553008656818</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1553008656818</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124760000" />
+    <option name="totallyTimeSpent" value="125358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1965" y="27" width="2515" height="1053" extended-state="6" />
@@ -711,7 +725,9 @@
     <MESSAGE value="circleci config for deploying" />
     <MESSAGE value="delete all logs" />
     <MESSAGE value="circleci config" />
-    <option name="LAST_COMMIT_MESSAGE" value="circleci config" />
+    <MESSAGE value="survey routes setup" />
+    <MESSAGE value="circleci push fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="circleci push fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm64.vmoptions">
@@ -910,13 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="43" column="118" selection-start-line="43" selection-start-column="118" selection-end-line="43" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2277">
@@ -1068,6 +1077,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="48" column="98" selection-start-line="48" selection-start-column="98" selection-end-line="48" selection-end-column="98" />
         </state>
       </provider>
     </entry>

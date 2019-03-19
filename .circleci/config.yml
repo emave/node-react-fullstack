@@ -46,7 +46,7 @@ jobs:
       - run:
           name: Pull changes and adding a Build dist
           command: |
-            cd client && git add -f build && cd ../ && git add -f client/build && git pull && git commit -m "commit"
+            git pull https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME.git master && cd client && git add -f build && cd ../ && git add -f client/build && git commit -m "commit"
 
       - run:
           name: Deploy Master to Heroku
