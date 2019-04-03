@@ -40,7 +40,7 @@ const SurveyForm = (props) => {
           component={'form'}
           onSubmit={handleSubmit}
         >
-          <CardHeader title={'Enter an email content'}/>
+          <CardHeader title={'Enter a data for "Yes or No" question'}/>
           <CardContent>
             {FIELDS.map(field => (
               <Field
