@@ -9,9 +9,15 @@ import '../Styles/App.sass';
 import {Elements, StripeProvider} from "react-stripe-elements";
 
 const Header = lazy(() => import('./Header'));
-const Dashboard = () => <h2>Dashboard</h2>;
-const SurveyNew = () => <h2>SurveyNew</h2>;
+const Dashboard = lazy(() => import('./Dashboard'));
+const SurveyNew = lazy(() => import('./Surveys/SurveyNew'));
 const Landing = lazy(() => import('./Landing'));
+
+const SuspenseBlock = () => (
+  <div style={{width: '100%', height: '100%', position: 'absolute', top: '0', left: '0', zIndex: '100'}}>
+    <p style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>Loading...</p>
+  </div>
+);
 
 const App = (props) => {
   const {fetchUser, auth} = props;
@@ -34,16 +40,16 @@ const App = (props) => {
 
   return (
     <MuiThemeProvider theme={customTheme}>
-      <Suspense fallback={
-        <div style={{width: '100%', height: '100%', position: 'fixed', top: '0', left: '0'}}>
-          <p style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)'}}>Loading...</p>
-        </div>
-      }>
+      <Suspense fallback={SuspenseBlock()}>
         <BrowserRouter>
           <Header/>
-          <Route path={'/surveys/new'} component={SurveyNew}/>
-          <Route path={'/surveys'} component={Dashboard} exact/>
-          <Route path={'/'} component={Landing} exact/>
+          <Suspense fallback={SuspenseBlock()}>
+            <div style={{maxWidth: '1200px', margin: 'auto', padding: '80px 0 20px'}}>
+              <Route path={'/surveys/new'} component={SurveyNew}/>
+              <Route path={'/surveys'} component={Dashboard} exact/>
+              <Route path={'/'} component={Landing} exact/>
+            </div>
+          </Suspense>
         </BrowserRouter>
 
         <StripeProvider stripe={stripeState}>

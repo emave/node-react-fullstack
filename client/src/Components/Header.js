@@ -1,10 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {AppBar, Toolbar, Typography, Button, IconButton, withStyles} from '@material-ui/core';
-import MenuIcon from '@material-ui/icons/Menu';
+import {AppBar, Toolbar, Typography, Button, withStyles} from '@material-ui/core';
 import {connect} from "react-redux";
-import {authActions} from "../Actions";
-import {modalActions} from "../Actions/modalActions";
+import {authActions, modalActions} from "../Actions";
 
 const styles = {
   root: {
@@ -43,11 +41,8 @@ const Header = (props) => {
 
   return (
     <nav className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="fixed" style={{top: 0, bottom: 'auto'}}>
         <Toolbar>
-          <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
-            <MenuIcon/>
-          </IconButton>
           <Typography variant="h4" color="inherit" className={classes.grow}>
             <Link style={{color: '#fff'}} to={auth ? '/surveys' : '/'}>Emaily</Link>
           </Typography>

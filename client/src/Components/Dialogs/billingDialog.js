@@ -37,7 +37,7 @@ const Payments = (props) => {
       </DialogContent>
       <Divider/>
       <DialogActions style={{textAlign: 'center', padding: '10px'}}>
-        <Button style={{margin: 'auto'}} type={'submit'}>Submit</Button>
+        <Button style={{margin: 'auto'}} color='primary' type={'submit'}>Submit</Button>
       </DialogActions>
     </form>
   </Dialog>
